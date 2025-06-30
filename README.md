@@ -55,7 +55,7 @@ projeto-dt1/
 1. **Clone o repositório:**
 
 ```bash
-git clone git@github.com:vitor-sramos/Seis-Graus-de-Separa-o-Grafo-Bipartido-de-Atores-e-Filmes.git
+git clone git@github.com:vitor-sramos/Seis-Graus-de-Separacao.git
 ```
 
 # Inicie o backend:
