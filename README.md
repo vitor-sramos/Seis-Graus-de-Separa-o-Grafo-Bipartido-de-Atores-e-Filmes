@@ -40,14 +40,26 @@ Foi desenvolvido como parte de um trabalho prático de grafos na disciplina de T
 
 ```plaintext
 projeto-dt1/
-├── data/
-│   └── atores_filmes.json    # Base de dados com atores e filmes
-├── src/
-│   ├── grafo.js             # Estrutura e construção do grafo
-│   ├── bfs.js               # Implementação da BFS para menor caminho
-│   └── app.js               # Interface principal (menu/interação)
-├── package.json
-└── README.md
+├── backend/
+│   ├── controllers/
+│   │   ├── grafoController.js     # Lógica para construção do grafo e busca BFS
+│   ├── db/
+│   │   └── atores_filmes.json     # Base de dados com atores e filmes
+│   ├── routes/
+│   │   └── grafoRoutes.js         # Rotas da API: menor caminho, conexões até 6
+│   ├── index.js                   # Servidor principal Express
+│   └── package.json               # Dependências do backend
+│
+├── frontend/
+│   ├── src/
+│   │   ├── pages/                 # Páginas como Home, Buscar, Resultado etc.
+│   │   ├── components/            # Componentes reutilizáveis
+│   │   ├── App.js                 # Roteamento e estrutura principal
+│   │   └── index.js               # Entry point do React
+│   └── package.json               # Dependências do frontend
+│
+├── README.md                      # Documentação do projeto
+
 ```
 
 ##  Como executar
