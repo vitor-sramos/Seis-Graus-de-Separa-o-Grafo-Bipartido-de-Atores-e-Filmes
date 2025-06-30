@@ -1,0 +1,16 @@
+.grafoContainer {
+    height: 700px;
+    padding: 20px;
+  }
+  
+  .divVertice {
+    margin-bottom: 20px; 
+    padding: 10px; 
+    background-color: #f0f0f0; 
+    border-radius: 8px; 
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
