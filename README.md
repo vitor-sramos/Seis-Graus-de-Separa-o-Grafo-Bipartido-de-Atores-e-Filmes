@@ -103,5 +103,5 @@ http://localhost:3000
 ## Autor
 - Desenvolvido por Vitor de Souza Ramos
 - Estudante de Ciência da Computação na UNESC
-- GitHub: https://github.com/vitor-sramos
-- LinkedIn: https://www.linkedin.com/in/vitor-ramos-934302349
+- [GitHub](https://github.com/vitor-sramos). 
+- [LinkedIn](https://www.linkedin.com/in/vitor-ramos-934302349).
